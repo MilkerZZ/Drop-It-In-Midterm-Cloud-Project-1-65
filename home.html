@@ -1,0 +1,267 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+      integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container bg-white h-100">
+      <header class="w-100 row">
+        <div class="col-2 justify-content-center d-flex">
+          <img
+            src="https://media.discordapp.net/attachments/1140554726694469692/1152528431716774050/logo-removebg-preview.png"
+            id="logo"
+            width="140px"
+          />
+        </div>
+        <div class="row align-content-center col-10">
+          <form class="row col-10" role="search">
+            <div class="col-10 position-relative">
+              <i
+                class="fa fa-search fa-lg position-absolute top-50 translate-middle-y ps-3 text-gray fs-6"
+                aria-hidden="true"
+                id="icon-search"
+              ></i>
+              <input
+                class="form-control form-control-borderless ps-5"
+                type="search"
+                placeholder="Search for. . ."
+                aria-label="Search"
+                id="search-bar"
+              />
+            </div>
+            <div class="col-2">
+              <button
+                class="btn btn-md text-white"
+                type="submit"
+                id="button-search"
+              >
+                Search
+              </button>
+            </div>
+          </form>
+          <div class="dropdown col-2" id="account-dropdown">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              id="account-dropdown"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fas fa-user-circle fa-lg"></i>
+              My Account
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Log Out</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="w-100 bg-menu">
+          <div class="dropdown">
+            <button
+              class="btn dropdown-toggle border-dark m-3"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Category
+            </button>
+            <ul class="dropdown-menu dropdown-overflow">
+              <a class="dropdown-item" href="#">Man</a>
+              <a class="dropdown-item" href="#">Woman</a>
+              <a class="dropdown-item" href="#">Child</a>
+              <a class="dropdown-item" href="#">Family</a>
+              <a class="dropdown-item" href="#">Student</a>
+              <a class="dropdown-item" href="#">Pose</a>
+              <a class="dropdown-item" href="#">Composition</a>
+              <a class="dropdown-item" href="#">Emotion</a>
+              <a class="dropdown-item" href="#">Lifestyle</a>
+              <a class="dropdown-item" href="#">Housekeeping</a>
+              <a class="dropdown-item" href="#">Health</a>
+              <a class="dropdown-item" href="#">Beauty</a>
+              <a class="dropdown-item" href="#">Make-Up</a>
+              <a class="dropdown-item" href="#">Sport</a>
+              <a class="dropdown-item" href="#">Exercise</a>
+              <a class="dropdown-item" href="#">Baseball</a>
+              <a class="dropdown-item" href="#">Football</a>
+              <a class="dropdown-item" href="#">Basketball</a>
+              <a class="dropdown-item" href="#">Tennis</a>
+              <a class="dropdown-item" href="#">Golf</a>
+              <a class="dropdown-item" href="#">Water Sport</a>
+              <a class="dropdown-item" href="#">Winter Sport</a>
+              <a class="dropdown-item" href="#">Dance</a>
+              <a class="dropdown-item" href="#">Diet</a>
+              <a class="dropdown-item" href="#">Hobbies</a>
+              <a class="dropdown-item" href="#">Game</a>
+              <a class="dropdown-item" href="#">Outdoors Activities</a>
+              <a class="dropdown-item" href="#">Music</a>
+              <a class="dropdown-item" href="#">Concert</a>
+              <a class="dropdown-item" href="#">Drama</a>
+              <a class="dropdown-item" href="#">Gambling</a>
+              <a class="dropdown-item" href="#">Balloons</a>
+              <a class="dropdown-item" href="#">Birthday</a>
+              <a class="dropdown-item" href="#">Halloween</a>
+              <a class="dropdown-item" href="#">Christmas</a>
+              <a class="dropdown-item" href="#">Wedding</a>
+              <a class="dropdown-item" href="#">New Year</a>
+              <a class="dropdown-item" href="#">Chinese New Year</a>
+              <a class="dropdown-item" href="#">Valentine's Day</a>
+              <a class="dropdown-item" href="#">Easter</a>
+              <a class="dropdown-item" href="#">Mother's Day</a>
+              <a class="dropdown-item" href="#">Father's Day</a>
+              <a class="dropdown-item" href="#">Thanksgiving Day</a>
+              <a class="dropdown-item" href="#">Event</a>
+              <a class="dropdown-item" href="#">Festival</a>
+              <a class="dropdown-item" href="#">Doctor</a>
+              <a class="dropdown-item" href="#">Nurse</a>
+              <a class="dropdown-item" href="#">Artisan</a>
+              <a class="dropdown-item" href="#">Athlete</a>
+              <a class="dropdown-item" href="#">Artist</a>
+              <a class="dropdown-item" href="#">Singer</a>
+              <a class="dropdown-item" href="#">Education</a>
+              <a class="dropdown-item" href="#">Animal</a>
+              <a class="dropdown-item" href="#">Dog</a>
+              <a class="dropdown-item" href="#">Cat</a>
+              <a class="dropdown-item" href="#">Sheep</a>
+              <a class="dropdown-item" href="#">Rabbit</a>
+              <a class="dropdown-item" href="#">Panda</a>
+              <a class="dropdown-item" href="#">Lion</a>
+              <a class="dropdown-item" href="#">Cow</a>
+              <a class="dropdown-item" href="#">Penguin</a>
+              <a class="dropdown-item" href="#">Small Animal</a>
+              <a class="dropdown-item" href="#">Land Animal</a>
+              <a class="dropdown-item" href="#">Sea Animals/Aquatic Animals</a>
+              <a class="dropdown-item" href="#">Bird</a>
+              <a class="dropdown-item" href="#">Insect</a>
+              <a class="dropdown-item" href="#">Dinosaur</a>
+              <a class="dropdown-item" href="#">Flower</a>
+              <a class="dropdown-item" href="#">Plant</a>
+              <a class="dropdown-item" href="#">Alien</a>
+              <a class="dropdown-item" href="#">Fantasy</a>
+              <a class="dropdown-item" href="#">Angel</a>
+              <a class="dropdown-item" href="#">Witch</a>
+              <a class="dropdown-item" href="#">Demon</a>
+              <a class="dropdown-item" href="#">Fairy</a>
+              <a class="dropdown-item" href="#">Princess</a>
+              <a class="dropdown-item" href="#">Prince</a>
+              <a class="dropdown-item" href="#">Traffic</a>
+              <a class="dropdown-item" href="#">Car</a>
+              <a class="dropdown-item" href="#">Bicycle</a>
+              <a class="dropdown-item" href="#">Vehicle</a>
+              <a class="dropdown-item" href="#">Train</a>
+              <a class="dropdown-item" href="#">Boat</a>
+              <a class="dropdown-item" href="#">Airplane</a>
+              <a class="dropdown-item" href="#">Road</a>
+              <a class="dropdown-item" href="#">Food</a>
+              <a class="dropdown-item" href="#">Rice dish</a>
+              <a class="dropdown-item" href="#">Drinks</a>
+              <a class="dropdown-item" href="#">Vegetables</a>
+              <a class="dropdown-item" href="#">Appliances</a>
+              <a class="dropdown-item" href="#">Musical instrument</a>
+              <a class="dropdown-item" href="#">Fashion</a>
+              <a class="dropdown-item" href="#">Landscape</a>
+              <a class="dropdown-item" href="#">Nature</a>
+              <a class="dropdown-item" href="#">Galaxy</a>
+              <a class="dropdown-item" href="#">Sky</a>
+              <a class="dropdown-item" href="#">House</a>
+              <a class="dropdown-item" href="#">Background</a>
+              <a class="dropdown-item" href="#">Texture</a>
+            </ul>
+            <button
+              class="btn border-dark m-3"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fas fa-sliders-h"></i>
+              Filter
+            </button>
+            <ul class="dropdown-menu">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  id="textA"
+                  name="filter-check"
+                />
+                <label class="form-check-label" for="textA">A-Z</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  id="textZ"
+                  name="filter-check"
+                />
+                <label class="form-check-label" for="textZ">Z-A</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  id="last"
+                  name="filter-check"
+                />
+                <label class="form-check-label" for="last">Latest</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  id="old"
+                  name="filter-check"
+                />
+                <label class="form-check-label" for="old">Oldest</label>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row row-cols-4 mt-4">
+            <img src="https://www.brandbuffet.in.th/wp-content/uploads/2014/11/Hello-Kitty-Wallpaper-37_605.jpg" class="col" alt="kitty">
+            <img src="https://www.brandbuffet.in.th/wp-content/uploads/2014/11/Hello-Kitty-Wallpaper-37_605.jpg" class="col" alt="kitty">
+            <img src="https://www.brandbuffet.in.th/wp-content/uploads/2014/11/Hello-Kitty-Wallpaper-37_605.jpg" class="col" alt="kitty">
+            <img src="https://www.brandbuffet.in.th/wp-content/uploads/2014/11/Hello-Kitty-Wallpaper-37_605.jpg" class="col" alt="kitty">
+          </div>
+          <div class="row row-cols-4 mt-4">
+            <img src="https://www.brandbuffet.in.th/wp-content/uploads/2014/11/Hello-Kitty-Wallpaper-37_605.jpg" class="col" alt="kitty">
+            <img src="https://www.brandbuffet.in.th/wp-content/uploads/2014/11/Hello-Kitty-Wallpaper-37_605.jpg" class="col" alt="kitty">
+            <img src="https://www.brandbuffet.in.th/wp-content/uploads/2014/11/Hello-Kitty-Wallpaper-37_605.jpg" class="col" alt="kitty">
+            <img src="https://www.brandbuffet.in.th/wp-content/uploads/2014/11/Hello-Kitty-Wallpaper-37_605.jpg" class="col" alt="kitty">
+          </div>
+          <div class="row row-cols-4 mt-4">
+            <img src="https://www.brandbuffet.in.th/wp-content/uploads/2014/11/Hello-Kitty-Wallpaper-37_605.jpg" class="col" alt="kitty">
+            <img src="https://www.brandbuffet.in.th/wp-content/uploads/2014/11/Hello-Kitty-Wallpaper-37_605.jpg" class="col" alt="kitty">
+            <img src="https://www.brandbuffet.in.th/wp-content/uploads/2014/11/Hello-Kitty-Wallpaper-37_605.jpg" class="col" alt="kitty">
+            <img src="https://www.brandbuffet.in.th/wp-content/uploads/2014/11/Hello-Kitty-Wallpaper-37_605.jpg" class="col" alt="kitty">
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"
+  ></script>
+</html>

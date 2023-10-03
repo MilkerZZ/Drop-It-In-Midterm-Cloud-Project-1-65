@@ -1,0 +1,105 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    display: flex;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.half {
+    flex: 1;
+    padding: 50px;
+}
+
+.left {
+    background-color: #E6DCD4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    padding-top: 60px;
+    
+    
+}
+
+input{
+    font-family: inherit;
+    border: 0;
+    border-bottom: 1px solid #aaa;
+    font-size: 16px;
+    color: #000;
+    border-radius: 0;
+}
+
+input[type='text'],
+input[type='password'] {
+    width: 100%;
+    height: 40px;
+}
+
+button,
+input:focus{
+    outline: 0;
+}
+
+.formgruop{
+    position: relative;
+    padding-top: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.inputgroup{
+    text-align: center;
+    padding-left: 30px;
+}
+
+.text{
+    text-align: center;
+}
+
+.button-area {
+    margin-top: 25px;
+    text-align: center;
+    justify-content: center; /* เพิ่มบรรทัดนี้เพื่อจัดปุ่มตรงกลาง */
+}
+
+.button-area button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    position: 10% ;
+    cursor: pointer; 
+}
+
+.btn-sign-up {
+    background-color: #FFF;
+    border: 2px solid #BDA18C; /* เพิ่ม border และ กำหนดสีขอบ */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-login{
+    background-color: #BDA18C;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}

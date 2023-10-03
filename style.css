@@ -1,0 +1,35 @@
+body {
+  height: 100dvh;
+  width: 100dvw;
+  background-color: #e7e7e7;
+}
+
+.bg-menu {
+  background-color: #bda18c;
+}
+
+.text-gray {
+    color: gray;
+}
+
+#search-bar {
+  background-color: #e7e7e7;
+  border: none;
+}
+#button-search {
+  border: none;
+  background-color: #bda18c;
+}
+#button-search:hover {
+  color: #fff;
+  background-color: #3f352d;
+  outline: none;
+  box-shadow: none;
+}
+
+.dropdown-overflow {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+
